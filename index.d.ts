@@ -5,7 +5,7 @@
 // TypeScript Version: 2.4
 
 import { RequestHandler } from "express";
-import { Store, SessionOptions } from "express-session";
+import { Store, SessionOptions } from "@holdyourwaffle/express-session";
 import { Pool, PoolConfig } from "pg";
 import { Session } from 'inspector';
 
